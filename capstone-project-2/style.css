@@ -1,0 +1,86 @@
+body {
+    color: #40514e;
+    text-align: center;
+    font-family: "Merriweather", serif;
+    margin: 0px;
+}
+
+div {
+    display: block;
+    margin: 0px;
+}
+
+.top-container {
+    position: relative;
+    padding-top: 100px;
+    margin: 0px;
+}
+
+.slogan {
+    margin-top: 0;
+    position: relative;
+    max-width: 80%;
+    align-items: center;
+}
+
+.top-photo {
+    margin-top: 1rem;
+    max-width: 90%;
+    align-items: center;
+}
+
+.logo {
+    padding: 1rem;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+.middle-text {
+    color: rgb(80, 80, 80);
+    margin-top: 0px;
+}
+
+.intro {
+    font-size: 12px;
+    width: 30%;
+    margin: auto;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    line-height: 2;
+}
+
+hr {
+    border: dotted rgb(80, 80, 80) 3px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+.skill {
+    color: rgb(80, 80, 80);
+    margin-top: 0px;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 80%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    row-gap: 2rem;
+    column-gap: 2rem;
+}
+
+.footer {
+    background-color: #a7a7a7;
+    padding: 1rem;
+}
